@@ -269,7 +269,7 @@ button{cursor:pointer}
       <h2 class="thesis-statement" style="margin-top:16px">Stop blaming employees for problems built into the workflow.</h2>
     </div>
     <div class="thesis-copy">
-      <p>An employee is expected to find a rule buried in five tabs, interpret a policy nobody clarified, and keep a customer waiting—then gets graded on the outcome. Another training session will not repair a missing decision.</p>
+      <p>An employee is expected to find a rule buried in five tabs, interpret a policy nobody clarified, and keep a customer waiting, then gets graded on the outcome. Another training session will not repair a missing decision.</p>
       <p>Observe real frontline work, identify unnecessary memory and search burden, clarify which decisions belong to the organization, and design support around the moment of action. AI is an option, not the starting point.</p>
       <div class="thesis-points">
         <div class="thesis-point"><b>01</b><span>Work before technology.</span></div>
@@ -293,7 +293,7 @@ button{cursor:pointer}
       <article class="card service reveal"><span class="num">03 / KNOWLEDGE</span><h3 class="h3">Frontline Knowledge Systems</h3><p class="body">Structure information by client, location, situation, and moment so finding the answer is no longer its own job.</p><ul><li>active context</li><li>information architecture</li><li>source provenance</li><li>rule governance</li></ul></article>
       <article class="card service reveal"><span class="num">04 / VALIDATION</span><h3 class="h3">Pilot Design & Measurement</h3><p class="body">Measure the current workflow, test a bounded improvement, and learn what changed before funding a rollout.</p><ul><li>pilot scope</li><li>before-and-after baselines</li><li>worker feedback</li><li>proof before scale</li></ul></article>
       <article class="card service reveal"><span class="num">05 / TOOLS</span><h3 class="h3">Frontline Tool & Interface Design</h3><p class="body">Design focused decision-support interactions that fit the work already happening instead of adding another dashboard.</p><ul><li>decision guidance</li><li>copilot design</li><li>context-aware interface</li><li>human override</li></ul></article>
-      <article class="card service reveal"><span class="num">06 / RESPONSIBILITY</span><h3 class="h3">Human-Centered AI & Work Redesign</h3><p class="body">Decide what systems should remember, retrieve, check, and coordinate—and where people must keep judgment, relationships, and accountability.</p><ul><li>human control</li><li>automation boundaries</li><li>AI guardrails</li><li>operating model</li></ul></article>
+      <article class="card service reveal"><span class="num">06 / RESPONSIBILITY</span><h3 class="h3">Human-Centered AI & Work Redesign</h3><p class="body">Decide what systems should remember, retrieve, check, and coordinate, and where people must keep judgment, relationships, and accountability.</p><ul><li>human control</li><li>automation boundaries</li><li>AI guardrails</li><li>operating model</li></ul></article>
     </div>
   </div>
 </section>
@@ -378,7 +378,7 @@ button{cursor:pointer}
 <section class="section founder" id="founder">
   <div class="wrap founder-grid">
     <aside class="card founder-card reveal"><div class="founder-mark">EL</div><div class="kicker">Founder</div><h3 class="h3" style="margin-top:12px">Erica Love</h3><p class="body">Founder, Agent First · Principal, Agent First Consulting</p><p class="body" style="font-size:13px">Frontline operations · decision systems · human-centered AI</p></aside>
-    <div class="founder-copy reveal"><p class="quote">“Why are people still being asked to remember things software already knows?”</p><p class="body">That question became the beginning of Agent First. I became interested in the enormous amount of human work that is really searching, remembering, switching systems, reconstructing context, interpreting rules, and carrying procedural complexity in working memory.</p><p class="body">My work starts there. Not with the newest model. Not with a feature list. With the person trying to do the job—and the question of what the surrounding system should be responsible for instead.</p><p class="body">The result is part operating-model design, part product design, part knowledge architecture, and part applied AI. The goal is simple: make difficult work easier to do correctly without designing the humanity out of it.</p></div>
+    <div class="founder-copy reveal"><p class="quote">“Why are people still being asked to remember things software already knows?”</p><p class="body">That question became the beginning of Agent First. I became interested in the enormous amount of human work that is really searching, remembering, switching systems, reconstructing context, interpreting rules, and carrying procedural complexity in working memory.</p><p class="body">My work starts there. Not with the newest model. Not with a feature list. With the person trying to do the job, and the question of what the surrounding system should be responsible for instead.</p><p class="body">The result is part operating-model design, part product design, part knowledge architecture, and part applied AI. The goal is simple: make difficult work easier to do correctly without designing the humanity out of it.</p></div>
   </div>
 </section>
 
@@ -429,7 +429,7 @@ button{cursor:pointer}
       fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
       .then(function(r){return r.json()}).then(function(data){
         if(!data||!data.success) throw new Error();
-        form.reset();btn.textContent='Problem received ✓';status.style.color='#8fe7c1';status.textContent='Thanks — your consulting inquiry is in.';
+        form.reset();btn.textContent='Problem received ✓';status.style.color='#8fe7c1';status.textContent='Thanks, your consulting inquiry is in.';
       }).catch(function(){
         btn.disabled=false;btn.textContent=original;status.style.color='#ff9fa8';status.innerHTML='Something went wrong. Email <a href="mailto:info@myagentfirst.com" style="text-decoration:underline">info@myagentfirst.com</a> instead.';
       });
